@@ -1,0 +1,5 @@
+D:\MyProjects\AltexSoft\Week1\Task3\Task3_3\bin\Debug\Task3_3.exe.config
+D:\MyProjects\AltexSoft\Week1\Task3\Task3_3\bin\Debug\Task3_3.exe
+D:\MyProjects\AltexSoft\Week1\Task3\Task3_3\bin\Debug\Task3_3.pdb
+D:\MyProjects\AltexSoft\Week1\Task3\Task3_3\obj\Debug\Task3_3.exe
+D:\MyProjects\AltexSoft\Week1\Task3\Task3_3\obj\Debug\Task3_3.pdb
