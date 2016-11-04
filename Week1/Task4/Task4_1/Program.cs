@@ -18,15 +18,14 @@ namespace Task4_1
                 new Student("Golova Anna Mychailivna", 1994, "Budivelnikiv st. 72, app.145", "School №2")
             };
             //First methot using LINQ
-            //List<Student> sortedStudentList =
-            //    studentList.OrderBy(x => x.YearOfBirth).Where(x => x.School == "Gymnasium №3").ToList();
-            //foreach (var student in sortedStudentList)
-            //{
-            //    Console.WriteLine(student.ToString());
-            //}
+            //studentList =
+            //    studentList.OrderBy(x => x.YearOfBirth)
+            //    .Where(x => x.School == "Gymnasium №3")
+            //    .ToList();
             //
-            //Second method using my sorting
-            studentList.SortBySchool(new StudentComparerByAge(), "Gymnasium №3");
+            //Second method using my sorting and filtration 
+            studentList.SortBySchool("Gymnasium №3");
+            studentList.Sort(new StudentComparerByAge());
 
             foreach (var student in studentList)
             {
@@ -74,7 +73,7 @@ namespace Task4_1
     static class StudentExtension
     {
         //Extension method for filtration of studentsList and compare by Age (with my own comparer)
-        public static void SortBySchool(this List<Student> studentsList, IComparer<Student> studentComparer ,string schoolName)
+        public static void SortBySchool(this List<Student> studentsList, string schoolName)
         {
             List<Student> tempStudentsList = new List<Student>();
             foreach (var student in studentsList)
@@ -86,7 +85,6 @@ namespace Task4_1
             }
             studentsList.Clear();
             studentsList.AddRange(tempStudentsList);
-            studentsList.Sort(studentComparer);
         } 
     }
 }

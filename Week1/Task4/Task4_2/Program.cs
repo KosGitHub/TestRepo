@@ -18,16 +18,14 @@ namespace Task4_2
                 new Student("Golova Anna Mychailivna", 1, new List<Exam>(){new Exam("History",4), new Exam("Mathematics",5), new Exam("Physics",3)}),
             };
             //First methot using LINQ
-            //List<Student> sortedStudentList =
-            //    studentList.OrderBy(x => x.GroupNumber).Where(x => x.Exams.Sum(y => y.Mark) >= 12).ToList();//average mark >=4 ==> exam handed
-            //foreach (var student in sortedStudentList)
-            //{
-            //    Console.WriteLine(student.ToString());
-            //}
+            //studentList =
+            //    studentList.OrderBy(x => x.GroupNumber)
+            //    .Where(x => x.Exams.Sum(y => y.Mark) >= 12)
+            //    .ToList();//average mark >=4 ==> exam handed
             //
-            //Second method using my sorting
-            studentList.SortByExams(new StudentComparerByGroup());
-
+            //Second method using my sorting and filtration
+            studentList.SortByExams();
+            studentList.Sort(new StudentComparerByGroup());
             foreach (var student in studentList)
             {
                 Console.WriteLine(student.ToString());
@@ -35,6 +33,7 @@ namespace Task4_2
             Console.Read();
         }
     }
+    #region Student
     class Student
     {
         public string Fio { get; set; }
@@ -80,7 +79,7 @@ namespace Task4_2
     static class StudentExtension
     {
         //Extension method for filtration of studentsList and compare by Age (with my own comparer)
-        public static void SortByExams(this List<Student> studentsList, IComparer<Student> studentComparer)
+        public static void SortByExams(this List<Student> studentsList)
         {
             List<Student> tempStudentsList = new List<Student>();
             foreach (var student in studentsList)
@@ -90,16 +89,16 @@ namespace Task4_2
                 {
                     sum += exam.Mark;
                 }
-                if (sum>=12)
+                if (sum>=12)//average mark is "4" in in 3 subjects
                 {
                     tempStudentsList.Add(student);
                 }
             }
             studentsList.Clear();
             studentsList.AddRange(tempStudentsList);
-            studentsList.Sort(studentComparer);
         }
     }
+    #endregion
     class Exam
     {
         public string Subject { get; set; }
