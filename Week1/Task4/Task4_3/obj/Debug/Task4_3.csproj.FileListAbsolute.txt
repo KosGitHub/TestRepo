@@ -1,0 +1,6 @@
+D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\bin\Debug\Task4_3.exe.config
+D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\bin\Debug\Task4_3.exe
+D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\bin\Debug\Task4_3.pdb
+D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\obj\Debug\Task4_3.exe
+D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\obj\Debug\Task4_3.pdb
+D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\obj\Debug\Task4_3.csprojResolveAssemblyReference.cache
