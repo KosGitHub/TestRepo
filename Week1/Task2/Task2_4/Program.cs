@@ -6,7 +6,7 @@ namespace Task2_4
     {
         static void Main(string[] args)
         {
-            int size;
+            int size;//size of array
             Console.WriteLine("Our array must have MxN size!");
             Console.Write("Input M, please: ");
             while (!int.TryParse(Console.ReadLine(), out size))

@@ -20,7 +20,7 @@ namespace Task2_3
                 Console.Write("{0} ", i);
             }
             Console.WriteLine();
-            Sort(array); // or we can do 'Array.Sort(array)' and sort array without our sorting implementation
+            MySort(array); // or we can do 'Array.Sort(array)' and sort array without our sorting implementation
             Console.WriteLine("Array after sort:");
             foreach (var i in array)
             {
@@ -38,7 +38,7 @@ namespace Task2_3
             }
             return array;
         }
-        static void Sort(short[] array)//a variant of sorting implementation
+        static void MySort(short[] array)//a variant of sorting implementation
         {
             int localMinPos;
             short tempValue;

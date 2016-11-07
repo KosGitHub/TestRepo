@@ -5,3 +5,10 @@ D:\MyProjects\AltexSoft\Week1\Task3\Task3_1\obj\Debug\Task3_1.csprojResolveAssem
 D:\MyProjects\AltexSoft\Week1\Task3\Task3_1\obj\Debug\Task3_1.exe
 D:\MyProjects\AltexSoft\Week1\Task3\Task3_1\obj\Debug\Task3_1.pdb
 D:\MyProjects\AltexSoft\Week1\Task3\Task3_1\bin\Debug\Text.txt
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task3\Task3_1\bin\Debug\Task3_1.exe.config
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task3\Task3_1\obj\Debug\Task3_1.exe
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task3\Task3_1\obj\Debug\Task3_1.pdb
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task3\Task3_1\bin\Debug\Text.txt
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task3\Task3_1\bin\Debug\Task3_1.exe
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task3\Task3_1\bin\Debug\Task3_1.pdb
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task3\Task3_1\obj\Debug\Task3_1.csprojResolveAssemblyReference.cache

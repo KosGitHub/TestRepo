@@ -4,3 +4,9 @@ D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\bin\Debug\Task4_3.pdb
 D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\obj\Debug\Task4_3.exe
 D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\obj\Debug\Task4_3.pdb
 D:\MyProjects\AltexSoft\Week1\Task4\Task4_3\obj\Debug\Task4_3.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task4\Task4_3\bin\Debug\Task4_3.exe.config
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task4\Task4_3\obj\Debug\Task4_3.exe
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task4\Task4_3\obj\Debug\Task4_3.pdb
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task4\Task4_3\bin\Debug\Task4_3.exe
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task4\Task4_3\bin\Debug\Task4_3.pdb
+C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task4\Task4_3\obj\Debug\Task4_3.csprojResolveAssemblyReference.cache
