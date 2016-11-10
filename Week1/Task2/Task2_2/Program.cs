@@ -6,37 +6,38 @@ namespace Task2_2
 {
     struct Student
     {
-        public string firstName;
-        public string lastName;
-        public int age;
-        public string formOfEducation;
-        public int course;
-        public string faculty;
+        public string _firstName;
+        public string _lastName;
+        public int _age;
+        public string _formOfEducation;
+        public int _course;
+        public string _faculty;
+
         public Student(string firstName, string lastName, int age, string formOfEducation, int course, string faculty)
         {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.age = age;
-            this.formOfEducation = formOfEducation;
-            this.course = course;
-            this.faculty = faculty;
+            _firstName = firstName;
+            _lastName = lastName;
+            _age = age;
+            _formOfEducation = formOfEducation;
+            _course = course;
+            _faculty = faculty;
         }
         public override string ToString()
         {
             return String.Format("First name: {0}, second name: {1}, age: {2} years, form of education: {3}, course: {4}, faculty: {5}",
-                    firstName, lastName, age, formOfEducation, course, faculty);
+                    _firstName, _lastName, _age, _formOfEducation, _course, _faculty);
         }
     }
-    //My realization of Compare method for students comparing by age
+
     class StudentComparer : IComparer<Student>
     {
         public int Compare(Student student1, Student student2)
         {
-            if (student1.age > student2.age)
+            if (student1._age > student2._age)
             {
                 return 1;
             }
-            if (student1.age < student2.age)
+            if (student1._age < student2._age)
             {
                 return -1;
             }
@@ -59,14 +60,12 @@ namespace Task2_2
             Console.WindowWidth = 130;
 
             Console.WriteLine("Sort by _firstName field:");
-            //First methot of sorting by Firstname using LINQ
-            foreach (var student in studentArray.OrderBy(x => x.firstName))
+            foreach (var student in studentArray.OrderBy(x => x._firstName))
             {
                 Console.WriteLine(student.ToString());
             }
             Console.WriteLine(new string('-', 100));
             Console.WriteLine("Sort by _age (by method Sort(IComparer)):");
-            //Second method of sorting by age using my sorting
             Array.Sort(studentArray, new StudentComparer());
             foreach (var student in studentArray)
             {

@@ -3,9 +3,3 @@ D:\MyProjects\AltexSoft\Week1\Task2\Task2_3\bin\Debug\Task2_3.exe
 D:\MyProjects\AltexSoft\Week1\Task2\Task2_3\bin\Debug\Task2_3.pdb
 D:\MyProjects\AltexSoft\Week1\Task2\Task2_3\obj\Debug\Task2_3.exe
 D:\MyProjects\AltexSoft\Week1\Task2\Task2_3\obj\Debug\Task2_3.pdb
-C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task2\Task2_3\bin\Debug\Task2_3.exe.config
-C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task2\Task2_3\obj\Debug\Task2_3.exe
-C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task2\Task2_3\obj\Debug\Task2_3.pdb
-C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task2\Task2_3\bin\Debug\Task2_3.exe
-C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task2\Task2_3\bin\Debug\Task2_3.pdb
-C:\Users\Asus\Dropbox\GitRepositories\AltexSoft\Week1\Task2\Task2_3\obj\Debug\Task2_3.csprojResolveAssemblyReference.cache

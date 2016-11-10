@@ -6,20 +6,19 @@ namespace Task2_4
     {
         static void Main(string[] args)
         {
-            int size;//size of array
             Console.WriteLine("Our array must have MxN size!");
+            int m;
             Console.Write("Input M, please: ");
-            while (!int.TryParse(Console.ReadLine(), out size))
+            while (!int.TryParse(Console.ReadLine(), out m))
             {
                 Console.Write("You must enter integer, try again please!\nInput M, please: ");
             }
-            int m = Convert.ToInt32(size);
+            int n;
             Console.Write("Input N, please: ");
-            while (!int.TryParse(Console.ReadLine(), out size))
+            while (!int.TryParse(Console.ReadLine(), out n))
             {
                 Console.Write("You must enter integer, try again please!\nInput N, please: ");
             }
-            int n = Convert.ToInt32(size);
             Console.WriteLine();
             short[,] array = GetRandomArray(m, n);
             Console.WriteLine("Array before sort:");
