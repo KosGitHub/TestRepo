@@ -1,0 +1,6 @@
+D:\MyProjects\AltexSoft\Week2\Task8\bin\Debug\Task8.exe.config
+D:\MyProjects\AltexSoft\Week2\Task8\bin\Debug\Task8.exe
+D:\MyProjects\AltexSoft\Week2\Task8\bin\Debug\Task8.pdb
+D:\MyProjects\AltexSoft\Week2\Task8\obj\Debug\Task8.csprojResolveAssemblyReference.cache
+D:\MyProjects\AltexSoft\Week2\Task8\obj\Debug\Task8.exe
+D:\MyProjects\AltexSoft\Week2\Task8\obj\Debug\Task8.pdb
