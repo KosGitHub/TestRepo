@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Task6
 {
@@ -19,17 +21,44 @@ namespace Task6
             return string.Format(this.Name);
         }
     }
-
+    // Extension class for List<MusicCatalog>
     static class MusicCatalogExtenshion
     {
-        public static new string Print(this List<MusicCatalog> catalogs)
+        // Extenshion method Print() for List<MusicCatalog>
+        public static string Print(this List<MusicCatalog> catalogs)
         {
             string resultString = string.Empty;
-            foreach (var catalog in catalogs)
+            if (catalogs.Count>0)
             {
-                resultString += string.Format("{0}\n", catalog);
+                foreach (var catalog in catalogs)
+                {
+                    resultString += string.Format("{0}.{1}\n", catalogs.IndexOf(catalog) + 1, catalog);
+                }
+                resultString = "Music catalog list:\n" + resultString.Remove(resultString.Length - 1) + "\n";    
             }
-            resultString = resultString.Remove(resultString.Length - 1);
+            else
+            {
+                resultString = "There are no catalogs in you music store!\n"; 
+            }
+            return resultString;
+        }
+
+        public static string SearchTracksByAuthor(this List<MusicCatalog> musicCatalogs, string author )
+        {
+            string resultString = string.Empty;
+            foreach (var musicCatalog in musicCatalogs)
+            {
+                foreach (var musicDisc in musicCatalog.MusicDiscs)
+                {
+                    foreach (var musicTrack in musicDisc.MusicTracks)
+                    {
+                        if (musicTrack.Author == author)
+                        {
+                            resultString += musicTrack.MusicDisc.MusicCatalog.ToString() + musicTrack.MusicDisc.ToString() + musicTrack;
+                        }
+                    }
+                }
+            }
             return resultString;
         }
     }

@@ -1,6 +1,0 @@
-D:\MyProjects\AltexSoft\Week1\Task2\Task2_4\bin\Debug\Task2_4.exe.config
-D:\MyProjects\AltexSoft\Week1\Task2\Task2_4\bin\Debug\Task2_4.exe
-D:\MyProjects\AltexSoft\Week1\Task2\Task2_4\bin\Debug\Task2_4.pdb
-D:\MyProjects\AltexSoft\Week1\Task2\Task2_4\obj\Debug\Task2_4.exe
-D:\MyProjects\AltexSoft\Week1\Task2\Task2_4\obj\Debug\Task2_4.pdb
-D:\MyProjects\AltexSoft\Week1\Task2\Task2_4\obj\Debug\Task2_4.csprojResolveAssemblyReference.cache
