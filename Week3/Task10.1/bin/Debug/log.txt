@@ -1,0 +1,4 @@
+Changing(Created): TestCatalog\2.txt
+Changing(Changed): TestCatalog\2.txt
+Changing(Changed): TestCatalog\2.txt
+File TestCatalog\2.txt renamed to TestCatalog\3.txt
